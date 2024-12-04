@@ -1,0 +1,103 @@
+/* Overall Container */
+.servicesContainer {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
+  }
+  
+  /* Hero Section */
+  .heroSection {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(90deg, rgba(138, 43, 226, 0.85), rgba(75, 0, 130, 0.85));
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .heroSection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .heroSection p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Services List Section */
+  .servicesList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    gap: 2rem;
+  }
+  
+  .serviceCard {
+    flex: 1 1 calc(33% - 2rem);
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .serviceCard h2 {
+    font-size: 1.8rem;
+    color: #8a2be2;
+    margin-bottom: 1rem;
+  }
+  
+  .serviceCard p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .serviceCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Call-to-Action Section */
+  .ctaSection {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(90deg, rgba(75, 0, 130, 0.85), rgba(138, 43, 226, 0.85));
+    color: white;
+    border-radius: 8px;
+    margin: 2rem auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ctaSection h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ctaSection p {
+    font-size: 1rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .ctaButton {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #ffd700;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ctaButton:hover {
+    background-color: #f0c000;
+  }
+  

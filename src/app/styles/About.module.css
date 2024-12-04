@@ -1,0 +1,149 @@
+/* Overall Page Styling */
+.aboutContainer {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
+  }
+  
+  /* Hero Section */
+  .heroSection {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: blueviolet;
+
+    background:white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .heroSection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .heroSection p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Mission and Vision Sections */
+  .missionSection, .visionSection {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: white;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .missionSection h2, .visionSection h2 {
+    font-size: 1.8rem;
+    color: #8a2be2;
+    margin-bottom: 1rem;
+  }
+  
+  .missionSection p, .visionSection p {
+    font-size: 1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #555;
+  }
+  
+  /* Values Section */
+  .valuesSection {
+    padding: 2rem 1rem;
+    background: #eee;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .valuesSection h2 {
+    font-size: 1.8rem;
+    color: #8a2be2;
+    margin-bottom: 1rem;
+  }
+  
+  .valuesSection ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .valuesSection li {
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Achievements Section */
+  .statsSection {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: white;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .statsSection h2 {
+    font-size: 1.8rem;
+    color: #8a2be2;
+    margin-bottom: 2rem;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .stats h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stats p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  /* Contact Section */
+  .contactSection {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: blueviolet;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactSection h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contactSection p {
+    font-size: 1rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .contactSection a {
+    color: #ffd700; /* Golden link */
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .contactSection a:hover {
+    color: white;
+  }
+  

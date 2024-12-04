@@ -1,0 +1,72 @@
+.footer {
+  background: blueviolet;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footerContent {
+  margin-bottom: 1rem;
+}
+
+.footerContent .companyName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.footerContent .tagline {
+  font-style: italic;
+  font-size: 1rem;
+  color: #ffd700; /* Golden touch for the tagline */
+  margin-bottom: 0.5rem;
+}
+
+.footerContent .unit {
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.footerLinks ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.footerLinks li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footerLinks li a:hover {
+  color: #ffd700; /* Golden hover effect */
+}
+
+.footerSocials {
+  margin-top: 1rem;
+}
+
+.footerSocials p {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.footerSocials a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footerSocials a:hover {
+  color: #ffd700; /* Golden hover effect for social links */
+}
