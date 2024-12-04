@@ -5,8 +5,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
         <p className={styles.companyName}>&copy; 2024 Digiankiya Technologies. All rights reserved.</p>
-        <p className={styles.tagline}>Empowering Digital Transformation Worldwide</p>
-        <p className={styles.unit}>A Unit of Kalwar Industries Limited</p>
+        <p className={styles.unit}>A Unit of Kalwar Technologies Private Limited</p>
       </div>
       <div className={styles.footerLinks}>
         <ul>
