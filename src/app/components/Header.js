@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <Link href="/">Digiankiya Technologies</Link>
+        <Link href="/">डिजीअंकिय Technologies</Link>
       </div>
       <nav>
         <ul className={styles.navList}>

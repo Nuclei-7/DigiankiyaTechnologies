@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
       <main className={styles.main}>
   <h1>Welcome to Our World of Digital Innovation</h1>
   <p>
-    At <strong>TechSphere</strong>, we empower businesses to thrive in the digital era. 
+    At <strong>डिजीअंकिय</strong>, we empower businesses to thrive in the digital era. 
     Our services are designed to transform your vision into reality with innovative and 
     cutting-edge technology solutions.
   </p>
