@@ -51,10 +51,7 @@
   border-radius: 5px;
 }
 
-.navList li a:hover {
-  color: #ffd700; /* Golden hover effect */
-  background: rgba(255, 255, 255, 0.1); /* Subtle hover background */
-}
+
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {

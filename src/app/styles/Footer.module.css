@@ -46,9 +46,7 @@
   transition: color 0.3s ease;
 }
 
-.footerLinks li a:hover {
-  color: #ffd700; /* Golden hover effect */
-}
+
 
 .footerSocials {
   margin-top: 1rem;

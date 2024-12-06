@@ -17,7 +17,7 @@ export default function Services() {
 
         <section className={styles.servicesList}>
           <div className={styles.serviceCard}>
-            <h2>Service 1</h2>
+            <h2>Sever Maintenence</h2>
             <p>
               Empower your business with innovative solutions to drive growth
               and efficiency.
@@ -25,7 +25,7 @@ export default function Services() {
           </div>
 
           <div className={styles.serviceCard}>
-            <h2>Service 2</h2>
+            <h2>Software Development</h2>
             <p>
               Optimize your operations with our state-of-the-art IT
               infrastructure and tools.
@@ -33,7 +33,7 @@ export default function Services() {
           </div>
 
           <div className={styles.serviceCard}>
-            <h2>Service 3</h2>
+            <h2>AI/ML Integration</h2>
             <p>
               Accelerate your digital transformation journey with our expert
               consulting and strategies.
