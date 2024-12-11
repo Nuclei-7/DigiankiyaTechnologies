@@ -7,10 +7,7 @@ export default function About() {
     <>
       <Header />
 
-      <head>
-      <meta name="google-adsense-account" content="ca-pub-7989979898155209">
-      </meta>
-      </head>
+     
       <main className={styles.aboutContainer}>
         <section className={styles.heroSection}>
           <h1>About Digiankiya Technologies</h1>
